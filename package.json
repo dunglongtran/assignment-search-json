@@ -1,0 +1,8 @@
+{
+"name":"assignment-search-json",
+"author":"dunglongtran",
+"version":"0.1.0",
+"scripts":{
+"start":"echo \"start\""
+}
+}
