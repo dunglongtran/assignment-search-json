@@ -5,20 +5,31 @@
   "scripts": {
     "build": "tsc --build tsconfig.build.json",
     "watch": "tsc -w",
-    "start:dev": "ts-node-dev --respawn src/index.ts --watch",
+    "start:dev": "ts-node-dev --respawn src/index.ts",
+    "search": "ts-node src/index.ts",
     "start": "echo \"start\""
   },
   "dependencies": {
+    "@types/cli": "0.11.19",
     "@types/es6-shim": "0.31.39",
     "@types/lodash": "4.14.149",
     "@types/node": "12.12.17",
     "@types/terminal-kit": "1.28.0",
     "class-transformer": "0.2.3",
+    "cli": "1.0.1",
+    "cli-kit": "0.13.0",
+    "commander": "^4.0.1",
     "es6-shim": "0.35.5",
+    "inquirer": "^7.0.1",
     "lodash": "4.17.15",
+    "reflect-metadata": "0.1.13",
     "terminal-kit": "1.32.2",
+    "terminal-table": "0.0.12",
     "ts-node": "8.5.4",
     "ts-node-dev": "1.0.0-pre.44",
-    "typescript": "3.7.3"
+    "ts-transformer-keys": "0.4.1",
+    "typescript": "3.7.3",
+    "word-table": "1.0.3",
+    "xterm": "4.3.0"
   }
 }
